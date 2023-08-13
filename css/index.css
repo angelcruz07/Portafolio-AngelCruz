@@ -14,7 +14,7 @@
     --bg-color:#1f242d;
     --second-bg-color:#323946;
     --text-color:#fff;
-    --main-color:#0ef;
+    --main-color:rgb(226, 118, 46);
 }
 html { 
     font-size: 62.5%;
@@ -475,6 +475,10 @@ span {
     }
 }
 @media (max-width: 365px){
+    .home {
+        position: relative;
+        top: 50px;
+    }
     .home-img img { 
         width: 90vw;
     }

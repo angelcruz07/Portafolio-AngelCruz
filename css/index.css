@@ -335,6 +335,9 @@ span {
     margin-top: 2rem;
     cursor:pointer;
 }
+#btn__envio{
+    border: none;
+}
 
 /*  footer desing */
 

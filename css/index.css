@@ -135,11 +135,9 @@ span {
     font-weight: 600;
     margin-top: 2rem;
 }
-
 .btn :hover { 
     box-shadow: none;
 }
-
 .about { 
     display: flex;
     justify-content: center;
@@ -147,7 +145,6 @@ span {
     gap: 2rem;
     background:var(--second-bg-color);
     padding:2rem 9%;
-
 }
 .about-img img { 
     width: 35vh;

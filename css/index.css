@@ -2,7 +2,7 @@
     font-family: 'Poppins';
     font-style: normal;
     font-display: swap;
-    src: url(../assets/Poppins-Regular.woff) format('woff2');
+    src: url(../assets/Poppins-Regular.woff2) format('woff2');
   }
 * {
     margin: 0;

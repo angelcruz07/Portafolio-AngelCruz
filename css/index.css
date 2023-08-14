@@ -1,5 +1,4 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;1,200;1,300&display=swap');
-
 * {
     margin: 0;
     padding: 0;
@@ -265,11 +264,9 @@ span {
 .portfolio-box:hover .portfolio-layer { 
     transform: translateY(0) ;
 }
-
 .portfolio-layer h3{ 
     font-size: 3rem;
 }
-
 .portfolio-layer p {
     font-size:1.6rem ;
     margin: .3rem 0 1rem;
@@ -288,12 +285,9 @@ span {
     color:var(--second-bg-color);
 
 }
-
 /* contact  desing */
-
 .contact h2 { 
     margin-bottom: 3rem;
-
 }
 .contact form { 
     max-width:  70rem;
@@ -306,10 +300,8 @@ span {
     justify-content: space-between;
     flex-wrap: wrap;
 }
-
 .contact form .input-box input,
 .contact form textarea {
-    
     width: 100%;
     padding: 1.5rem;
     font-size: 1.6rem;
@@ -323,7 +315,6 @@ span {
 }
 .contact form textarea { 
     resize: none;
-
 }
 .contact form { 
     margin-top: 2rem;
@@ -332,9 +323,7 @@ span {
 #btn__envio{
     border: none;
 }
-
 /*  footer desing */
-
 .footer { 
     display: flex;
     justify-content: space-between;
@@ -361,9 +350,7 @@ span {
     font-size:  2.4rem; 
     color: var(--second-bg-color);
  }
-
  /* desing responsive  */
-
  @media (max-width: 1200px){
     html{ 
         font-size: 55%;
@@ -373,14 +360,12 @@ span {
  @media (max-width: 991px){
     .header { 
         padding: 2rem 3%; 
-
     }
     section { 
         padding: 10rem 3% 2rem;
     }
     .services { 
         padding-bottom: 7rem;
-        
     }
     .portfolio { 
         padding-bottom: 7rem;
@@ -392,12 +377,9 @@ span {
         padding: 2rem 3%;
     }
  }
-
-
  @media (max-width: 768px){
     #menu-icon { 
         display: block;
-
     }
     .navbar { 
         position:absolute; 
@@ -413,13 +395,11 @@ span {
     .navbar.active { 
         display:block;
     }
-
     .navbar a { 
         display: block;
         font-size:2rem; 
         margin:3rem 0;
     }
-
     .home { 
         flex-direction: column ;
     }
@@ -441,19 +421,15 @@ span {
         width: 70vw;
         margin-top:4rem;
     }
-
     .services h2{ 
         margin-bottom: 3rem;
     }
     .portfolio h2 { 
         margin-bottom:3rem;
-
     }
     .portfolio-container { 
         grid-template-columns: repeat(2,1fr);
-
     }
-
  }
 
  @media (max-width: 617px){ 
@@ -461,12 +437,10 @@ span {
         grid-template-columns: 1fr;
     }
  }
-
 @media (max-width: 450px){
     html { 
         font-size:50%;
     }
-
     .contact form .input-box input {
         width:100%;
     }

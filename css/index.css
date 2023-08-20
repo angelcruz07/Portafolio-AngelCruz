@@ -459,10 +459,6 @@ span {
     }
 }
 @media (max-width: 365px){
-    .home {
-    position: absolute;
-    top: 50px;
-    }
     .home-img img { 
         width: 90vw;
     }
